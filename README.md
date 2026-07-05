@@ -18,42 +18,70 @@ How does employee experience relate to retention?
 This dashboard answers these questions through interactive visualizations and dynamic filtering.
 
 📷 Dashboard Preview
+
 The dashboard provides HR managers with a complete overview of employee performance, workforce demographics, and attrition trends.
 
 🔍 Key Insights
+
 Using this dashboard, HR managers can quickly discover:
 
+
 Departments with the highest employee attrition.
+
 Salary ranges where turnover is more frequent.
+
 Job roles experiencing higher employee loss.
+
 The relationship between job satisfaction and employee attrition.
+
 Workforce distribution by age and gender.
+
 Employee experience across the organization.
 
+
 📊 Key Performance Indicators
+
 👥 Total Employees
+
 ✅ Active Employees
+
 🚪 Attrition Count
+
 📉 Attrition Rate
+
 🎂 Average Age
+
 💼 Average Experience
+
 📈 Dashboard Features
+
 Interactive Dashboard
+
 KPI Cards
+
 Dynamic Filters (Slicers)
+
 Department Analysis
+
 Salary Analysis
+
 Job Role Analysis
+
 Gender Distribution
+
 Age Group Analysis
+
 Experience Analysis
+
 Employee Attrition Analysis
+
 ⚙️ Dashboard Interactivity
 
 Users can interact with the dashboard by filtering data based on departments and age groups. All KPIs and charts update dynamically, making data exploration faster and more effective.
 
 
 💡 DAX Measure Example
+
 Attrition Rate % =
 DIVIDE(
     SUM('HR_Analytics-4'[AttritionCount]),
@@ -62,40 +90,49 @@ DIVIDE(
 )
 
 📈 Business Impact
+
 This dashboard enables HR teams to:
+
 Monitor employee turnover.
+
 Improve employee retention strategies.
+
 Analyze workforce demographics.
+
 Identify high-risk departments.
+
 Make faster, data-driven business decisions.
 
 📚 Skills Demonstrated
+
 Data Cleaning
+
 Power Query
+
 DAX
+
 KPI Design
+
 Dashboard Development
+
 Data Visualization
+
 Business Intelligence
 
 🚀 Future Improvements
+
 SQL Server Integration
+
 Automatic Data Refresh
+
 Drill-through Pages
+
 Forecasting Attrition
+
 Predictive Analytics
+
 Power BI Service Deployment
 
-📂 Repository Structure
-HR-Analytics-Dashboard-PowerBI
-│
-├── Dashboard.pbix
-├── HR_Analytics.xlsx
-├── Demo.mp4
-├── README.md
-└── Images
-    ├── banner.png
-    └── dashboard.png
 
 🎥 Dashboard Demo
 The repository includes a short demo video showcasing the interactive features of the dashboard.
